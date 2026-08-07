@@ -4,7 +4,7 @@ title: 'note: Book flights for the Porto offsite. kind: commitment created_at: 1
 description: 'note: Book flights for the Porto offsite.'
 tags:
 - personal
-timestamp: '2026-08-03 04:25:03.786000+00:00'
+timestamp: '2026-08-03 05:54:21.015000+00:00'
 resource: '54'
 x_memanto:
   id: '54'
@@ -16,7 +16,7 @@ x_memanto:
 
 note: Book flights for the Porto offsite.
 kind: commitment
-created_at: 1785731103786
+created_at: 1785736461015
 
 ---
 [Supporting data]
@@ -24,5 +24,5 @@ created_at: 1785731103786
 - Collection: memories
 - Qdrant point id: 54
 - Has vector: False
-- Qdrant metadata: note=Book flights for the Porto offsite.; kind=commitment; created_at=1785731103786; tags=['personal']
-- Source created_at: 2026-08-03T04:25:03.786000+00:00
+- Qdrant metadata: note=Book flights for the Porto offsite.; kind=commitment; created_at=1785736461015; tags=['personal']
+- Source created_at: 2026-08-03T05:54:21.015000+00:00

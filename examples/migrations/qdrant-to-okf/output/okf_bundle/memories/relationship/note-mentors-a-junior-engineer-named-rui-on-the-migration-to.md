@@ -5,7 +5,7 @@ title: 'note: Mentors a junior engineer named Rui on the migration tooling. kind
 description: 'note: Mentors a junior engineer named Rui on the migration tooling.'
 tags:
 - work
-timestamp: '2026-07-14 04:25:03.784000+00:00'
+timestamp: '2026-07-14 05:54:21.010000+00:00'
 resource: '30'
 x_memanto:
   id: '30'
@@ -17,7 +17,7 @@ x_memanto:
 
 note: Mentors a junior engineer named Rui on the migration tooling.
 kind: relationship
-created_at: 1784003103784
+created_at: 1784008461010
 
 ---
 [Supporting data]
@@ -25,5 +25,5 @@ created_at: 1784003103784
 - Collection: memories
 - Qdrant point id: 30
 - Has vector: False
-- Qdrant metadata: note=Mentors a junior engineer named Rui on the migration tooling.; kind=relationship; created_at=1784003103784; tags=['work']
-- Source created_at: 2026-07-14T04:25:03.784000+00:00
+- Qdrant metadata: note=Mentors a junior engineer named Rui on the migration tooling.; kind=relationship; created_at=1784008461010; tags=['work']
+- Source created_at: 2026-07-14T05:54:21.010000+00:00

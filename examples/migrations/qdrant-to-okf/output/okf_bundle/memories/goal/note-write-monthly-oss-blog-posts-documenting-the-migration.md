@@ -5,7 +5,7 @@ description: 'note: Write monthly OSS blog posts documenting the migration journ
 tags:
 - work
 - writing
-timestamp: '2026-08-06 04:25:03.785000+00:00'
+timestamp: '2026-08-06 05:54:21.012000+00:00'
 resource: '39'
 x_memanto:
   id: '39'
@@ -17,7 +17,7 @@ x_memanto:
 
 note: Write monthly OSS blog posts documenting the migration journeys.
 kind: goal
-created_at: 1785990303785
+created_at: 1785995661012
 
 ---
 [Supporting data]
@@ -25,5 +25,5 @@ created_at: 1785990303785
 - Collection: memories
 - Qdrant point id: 39
 - Has vector: False
-- Qdrant metadata: note=Write monthly OSS blog posts documenting the migration journeys.; kind=goal; created_at=1785990303785; tags=['work', 'writing']
-- Source created_at: 2026-08-06T04:25:03.785000+00:00
+- Qdrant metadata: note=Write monthly OSS blog posts documenting the migration journeys.; kind=goal; created_at=1785995661012; tags=['work', 'writing']
+- Source created_at: 2026-08-06T05:54:21.012000+00:00

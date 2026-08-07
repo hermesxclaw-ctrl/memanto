@@ -4,7 +4,7 @@ title: Review Ana's retrieval pipeline PR before Wednesday.
 description: Review Ana's retrieval pipeline PR before Wednesday.
 tags:
 - work
-timestamp: '2026-08-02 04:25:03+00:00'
+timestamp: '2026-08-02 05:54:21+00:00'
 resource: '53'
 x_memanto:
   id: '53'
@@ -22,5 +22,5 @@ Review Ana's retrieval pipeline PR before Wednesday.
 - Collection: memories
 - Qdrant point id: 53
 - Has vector: False
-- Qdrant metadata: metadata={'source': 'agent-memory.log', 'created_at': 1785644703, 'type': 'commitment', 'tags': ['work']}; source=agent-memory.log; created_at=1785644703; type=commitment; tags=['work']
-- Source created_at: 2026-08-02T04:25:03+00:00
+- Qdrant metadata: metadata={'source': 'agent-memory.log', 'created_at': 1785650061, 'type': 'commitment', 'tags': ['work']}; source=agent-memory.log; created_at=1785650061; type=commitment; tags=['work']
+- Source created_at: 2026-08-02T05:54:21+00:00

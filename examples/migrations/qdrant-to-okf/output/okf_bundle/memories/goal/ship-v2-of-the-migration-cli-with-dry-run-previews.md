@@ -4,7 +4,7 @@ title: Ship v2 of the migration CLI with dry-run previews.
 description: Ship v2 of the migration CLI with dry-run previews.
 tags:
 - work
-timestamp: '2026-07-15 04:25:03+00:00'
+timestamp: '2026-07-15 05:54:21+00:00'
 resource: '35'
 x_memanto:
   id: '35'
@@ -22,5 +22,5 @@ Ship v2 of the migration CLI with dry-run previews.
 - Collection: memories
 - Qdrant point id: 35
 - Has vector: False
-- Qdrant metadata: metadata={'source': 'agent-memory.log', 'created_at': 1784089503, 'type': 'goal', 'tags': ['work']}; source=agent-memory.log; created_at=1784089503; type=goal; tags=['work']
-- Source created_at: 2026-07-15T04:25:03+00:00
+- Qdrant metadata: metadata={'source': 'agent-memory.log', 'created_at': 1784094861, 'type': 'goal', 'tags': ['work']}; source=agent-memory.log; created_at=1784094861; type=goal; tags=['work']
+- Source created_at: 2026-07-15T05:54:21+00:00

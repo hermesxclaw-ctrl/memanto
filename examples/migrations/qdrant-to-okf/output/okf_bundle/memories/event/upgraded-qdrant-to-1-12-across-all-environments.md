@@ -5,7 +5,7 @@ description: Upgraded Qdrant to 1.12 across all environments.
 tags:
 - work
 - infra
-timestamp: '2026-07-31 04:25:03+00:00'
+timestamp: '2026-07-31 05:54:21+00:00'
 resource: '44'
 x_memanto:
   id: '44'
@@ -23,5 +23,5 @@ Upgraded Qdrant to 1.12 across all environments.
 - Collection: memories
 - Qdrant point id: 44
 - Has vector: False
-- Qdrant metadata: metadata={'source': 'agent-memory.log', 'created_at': 1785471903, 'type': 'event', 'tags': ['work', 'infra']}; source=agent-memory.log; created_at=1785471903; type=event; tags=['work', 'infra']
-- Source created_at: 2026-07-31T04:25:03+00:00
+- Qdrant metadata: metadata={'source': 'agent-memory.log', 'created_at': 1785477261, 'type': 'event', 'tags': ['work', 'infra']}; source=agent-memory.log; created_at=1785477261; type=event; tags=['work', 'infra']
+- Source created_at: 2026-07-31T05:54:21+00:00

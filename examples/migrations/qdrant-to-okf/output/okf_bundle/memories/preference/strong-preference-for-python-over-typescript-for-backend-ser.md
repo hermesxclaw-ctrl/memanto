@@ -4,7 +4,7 @@ title: Strong preference for Python over TypeScript for backend services.
 description: Strong preference for Python over TypeScript for backend services.
 tags:
 - language
-timestamp: '2026-06-29 04:25:03+00:00'
+timestamp: '2026-06-29 05:54:21+00:00'
 resource: '2'
 x_memanto:
   id: '2'
@@ -22,5 +22,5 @@ Strong preference for Python over TypeScript for backend services.
 - Collection: memories
 - Qdrant point id: 2
 - Has vector: False
-- Qdrant metadata: metadata={'source': 'agent-memory.log', 'created_at': 1782707103, 'type': 'preference', 'tags': ['language']}; source=agent-memory.log; created_at=1782707103; type=preference; tags=['language']
-- Source created_at: 2026-06-29T04:25:03+00:00
+- Qdrant metadata: metadata={'source': 'agent-memory.log', 'created_at': 1782712461, 'type': 'preference', 'tags': ['language']}; source=agent-memory.log; created_at=1782712461; type=preference; tags=['language']
+- Source created_at: 2026-06-29T05:54:21+00:00

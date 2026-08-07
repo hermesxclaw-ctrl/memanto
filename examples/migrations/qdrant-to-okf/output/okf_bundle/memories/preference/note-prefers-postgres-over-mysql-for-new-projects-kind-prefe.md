@@ -4,7 +4,7 @@ title: 'note: Prefers Postgres over MySQL for new projects. kind: preference cre
 description: 'note: Prefers Postgres over MySQL for new projects.'
 tags:
 - database
-timestamp: '2026-07-20 04:25:03.781000+00:00'
+timestamp: '2026-07-20 05:54:21.006000+00:00'
 resource: '6'
 x_memanto:
   id: '6'
@@ -16,7 +16,7 @@ x_memanto:
 
 note: Prefers Postgres over MySQL for new projects.
 kind: preference
-created_at: 1784521503781
+created_at: 1784526861006
 
 ---
 [Supporting data]
@@ -24,5 +24,5 @@ created_at: 1784521503781
 - Collection: memories
 - Qdrant point id: 6
 - Has vector: False
-- Qdrant metadata: note=Prefers Postgres over MySQL for new projects.; kind=preference; created_at=1784521503781; tags=['database']
-- Source created_at: 2026-07-20T04:25:03.781000+00:00
+- Qdrant metadata: note=Prefers Postgres over MySQL for new projects.; kind=preference; created_at=1784526861006; tags=['database']
+- Source created_at: 2026-07-20T05:54:21.006000+00:00

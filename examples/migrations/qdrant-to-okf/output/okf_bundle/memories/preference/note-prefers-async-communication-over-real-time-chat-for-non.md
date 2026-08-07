@@ -6,7 +6,7 @@ description: 'note: Prefers async communication over real-time chat for non-urge
   items.'
 tags:
 - communication
-timestamp: '2026-08-05 04:25:03.782000+00:00'
+timestamp: '2026-08-05 05:54:21.007000+00:00'
 resource: '12'
 x_memanto:
   id: '12'
@@ -18,7 +18,7 @@ x_memanto:
 
 note: Prefers async communication over real-time chat for non-urgent items.
 kind: preference
-created_at: 1785903903782
+created_at: 1785909261007
 
 ---
 [Supporting data]
@@ -26,5 +26,5 @@ created_at: 1785903903782
 - Collection: memories
 - Qdrant point id: 12
 - Has vector: False
-- Qdrant metadata: note=Prefers async communication over real-time chat for non-urgent items.; kind=preference; created_at=1785903903782; tags=['communication']
-- Source created_at: 2026-08-05T04:25:03.782000+00:00
+- Qdrant metadata: note=Prefers async communication over real-time chat for non-urgent items.; kind=preference; created_at=1785909261007; tags=['communication']
+- Source created_at: 2026-08-05T05:54:21.007000+00:00

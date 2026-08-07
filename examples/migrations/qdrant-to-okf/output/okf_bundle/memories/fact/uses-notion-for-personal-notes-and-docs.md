@@ -4,7 +4,7 @@ title: Uses Notion for personal notes and docs.
 description: Uses Notion for personal notes and docs.
 tags:
 - tools
-timestamp: '2026-08-04 04:25:03.784000+00:00'
+timestamp: '2026-08-04 05:54:21.010000+00:00'
 resource: '28'
 x_memanto:
   id: '28'
@@ -22,5 +22,5 @@ Uses Notion for personal notes and docs.
 - Collection: memories
 - Qdrant point id: 28
 - Has vector: False
-- Qdrant metadata: metadata={'created_at': 1785817503784, 'memory_type': 'fact', 'user_id': 'tim@moorcheh.ai', 'agent_id': 'assistant-v1', 'run_id': 'run-8356'}; score=0.749; hash=1a2117c2b1207499; categories=['tools...
-- Source created_at: 2026-08-04T04:25:03.784000+00:00
+- Qdrant metadata: metadata={'created_at': 1785822861010, 'memory_type': 'fact', 'user_id': 'tim@moorcheh.ai', 'agent_id': 'assistant-v1', 'run_id': 'run-6826'}; score=0.956; hash=1a2117c2b1207499; categories=['tools...
+- Source created_at: 2026-08-04T05:54:21.010000+00:00

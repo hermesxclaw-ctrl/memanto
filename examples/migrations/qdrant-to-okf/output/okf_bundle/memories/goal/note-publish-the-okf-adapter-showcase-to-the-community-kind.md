@@ -5,7 +5,7 @@ description: 'note: Publish the OKF adapter showcase to the community.'
 tags:
 - work
 - oss
-timestamp: '2026-07-22 04:25:03.785000+00:00'
+timestamp: '2026-07-22 05:54:21.011000+00:00'
 resource: '36'
 x_memanto:
   id: '36'
@@ -17,7 +17,7 @@ x_memanto:
 
 note: Publish the OKF adapter showcase to the community.
 kind: goal
-created_at: 1784694303785
+created_at: 1784699661011
 
 ---
 [Supporting data]
@@ -25,5 +25,5 @@ created_at: 1784694303785
 - Collection: memories
 - Qdrant point id: 36
 - Has vector: False
-- Qdrant metadata: note=Publish the OKF adapter showcase to the community.; kind=goal; created_at=1784694303785; tags=['work', 'oss']
-- Source created_at: 2026-07-22T04:25:03.785000+00:00
+- Qdrant metadata: note=Publish the OKF adapter showcase to the community.; kind=goal; created_at=1784699661011; tags=['work', 'oss']
+- Source created_at: 2026-07-22T05:54:21.011000+00:00

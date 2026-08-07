@@ -5,7 +5,7 @@ description: Reduce p95 retrieval latency under 120ms.
 tags:
 - work
 - metrics
-timestamp: '2026-08-04 04:25:03+00:00'
+timestamp: '2026-08-04 05:54:21+00:00'
 resource: '38'
 x_memanto:
   id: '38'
@@ -23,5 +23,5 @@ Reduce p95 retrieval latency under 120ms.
 - Collection: memories
 - Qdrant point id: 38
 - Has vector: False
-- Qdrant metadata: metadata={'source': 'agent-memory.log', 'created_at': 1785817503, 'type': 'goal', 'tags': ['work', 'metrics']}; source=agent-memory.log; created_at=1785817503; type=goal; tags=['work', 'metrics']
-- Source created_at: 2026-08-04T04:25:03+00:00
+- Qdrant metadata: metadata={'source': 'agent-memory.log', 'created_at': 1785822861, 'type': 'goal', 'tags': ['work', 'metrics']}; source=agent-memory.log; created_at=1785822861; type=goal; tags=['work', 'metrics']
+- Source created_at: 2026-08-04T05:54:21+00:00

@@ -1,10 +1,10 @@
 ---
 type: event
-title: 'note: Team offsite in Porto next month. kind: event created_at: 1785039903785'
+title: 'note: Team offsite in Porto next month. kind: event created_at: 1785045261012'
 description: 'note: Team offsite in Porto next month.'
 tags:
 - work
-timestamp: '2026-07-26 04:25:03.785000+00:00'
+timestamp: '2026-07-26 05:54:21.012000+00:00'
 resource: '42'
 x_memanto:
   id: '42'
@@ -16,7 +16,7 @@ x_memanto:
 
 note: Team offsite in Porto next month.
 kind: event
-created_at: 1785039903785
+created_at: 1785045261012
 
 ---
 [Supporting data]
@@ -24,5 +24,5 @@ created_at: 1785039903785
 - Collection: memories
 - Qdrant point id: 42
 - Has vector: False
-- Qdrant metadata: note=Team offsite in Porto next month.; kind=event; created_at=1785039903785; tags=['work']
-- Source created_at: 2026-07-26T04:25:03.785000+00:00
+- Qdrant metadata: note=Team offsite in Porto next month.; kind=event; created_at=1785045261012; tags=['work']
+- Source created_at: 2026-07-26T05:54:21.012000+00:00

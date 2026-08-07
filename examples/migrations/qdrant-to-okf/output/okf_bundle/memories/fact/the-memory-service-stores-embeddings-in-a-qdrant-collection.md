@@ -5,7 +5,7 @@ description: The memory service stores embeddings in a Qdrant collection named '
 tags:
 - work
 - infra
-timestamp: '2026-07-01 04:25:03.782000+00:00'
+timestamp: '2026-07-01 05:54:21.008000+00:00'
 resource: '16'
 x_memanto:
   id: '16'
@@ -23,5 +23,5 @@ The memory service stores embeddings in a Qdrant collection named 'memories'.
 - Collection: memories
 - Qdrant point id: 16
 - Has vector: False
-- Qdrant metadata: metadata={'created_at': 1782879903782, 'memory_type': 'fact', 'user_id': 'tim@moorcheh.ai', 'agent_id': 'assistant-v1', 'run_id': 'run-1467'}; score=0.683; hash=b06b09aa715af741; categories=['work'...
-- Source created_at: 2026-07-01T04:25:03.782000+00:00
+- Qdrant metadata: metadata={'created_at': 1782885261008, 'memory_type': 'fact', 'user_id': 'tim@moorcheh.ai', 'agent_id': 'assistant-v1', 'run_id': 'run-4049'}; score=0.561; hash=b06b09aa715af741; categories=['work'...
+- Source created_at: 2026-07-01T05:54:21.008000+00:00

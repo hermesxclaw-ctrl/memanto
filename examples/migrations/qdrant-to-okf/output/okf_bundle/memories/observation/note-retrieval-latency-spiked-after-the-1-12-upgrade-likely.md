@@ -6,7 +6,7 @@ description: 'note: Retrieval latency spiked after the 1.12 upgrade — likely c
 tags:
 - work
 - metrics
-timestamp: '2026-07-31 04:25:03.787000+00:00'
+timestamp: '2026-07-31 05:54:21.017000+00:00'
 resource: '57'
 x_memanto:
   id: '57'
@@ -18,7 +18,7 @@ x_memanto:
 
 note: Retrieval latency spiked after the 1.12 upgrade — likely cold segments.
 kind: observation
-created_at: 1785471903787
+created_at: 1785477261017
 
 ---
 [Supporting data]
@@ -26,5 +26,5 @@ created_at: 1785471903787
 - Collection: memories
 - Qdrant point id: 57
 - Has vector: False
-- Qdrant metadata: note=Retrieval latency spiked after the 1.12 upgrade — likely cold segments.; kind=observation; created_at=1785471903787; tags=['work', 'metrics']
-- Source created_at: 2026-07-31T04:25:03.787000+00:00
+- Qdrant metadata: note=Retrieval latency spiked after the 1.12 upgrade — likely cold segments.; kind=observation; created_at=1785477261017; tags=['work', 'metrics']
+- Source created_at: 2026-07-31T05:54:21.017000+00:00

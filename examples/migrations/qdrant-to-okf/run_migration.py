@@ -150,6 +150,50 @@ def main(argv: list[str] | None = None) -> int:
     print(f"Round-trip type parity: {counts == okf_by_type or 'types may re-classify on import'}")
     print(f"Re-imported breakdown: {json.dumps(okf_by_type, indent=2)}")
 
+    # Record-level round-trip parity — every source record must come back.
+    # Keys on source_ref (record identity); type may re-classify on import, so
+    # it is reported, not failed on. Content must survive (footer additions OK).
+    from collections import Counter
+
+    src_refs = Counter(str(r.get("source_ref")) for r in rows)
+    okf_refs = Counter(str(r.get("source_ref")) for r in okf_rows)
+    missing = src_refs - okf_refs
+    extra = okf_refs - src_refs
+
+    src_content: dict[str, list[str]] = {}
+    for r in rows:
+        src_content.setdefault(str(r.get("source_ref")), []).append((r.get("content") or "").strip())
+    okf_content: dict[str, list[str]] = {}
+    for r in okf_rows:
+        okf_content.setdefault(str(r.get("source_ref")), []).append((r.get("content") or "").strip())
+
+    reclassified = []
+    for r in okf_rows:
+        src = str(r.get("source_ref"))
+        orig = next((x.get("type") for x in rows if str(x.get("source_ref")) == src), None)
+        if orig and r.get("type") != orig:
+            reclassified.append((src, orig, r.get("type")))
+
+    lost = 0
+    for ref, bodies in src_content.items():
+        for body in bodies:
+            if not body:
+                continue
+            probe = body[:40]
+            if not any(probe in (o or "") for o in okf_content.get(ref, [])):
+                lost += 1
+
+    record_parity = not missing and not extra and lost == 0
+    print(f"Record parity      : {'PASS' if record_parity else 'FAIL'}")
+    if missing:
+        print(f"  missing {sum(missing.values())} record(s): {dict(missing)}")
+    if extra:
+        print(f"  extra   {sum(extra.values())} record(s): {dict(extra)}")
+    if lost:
+        print(f"  {lost} source row(s) lost their content body on re-import")
+    if reclassified:
+        print(f"  {len(reclassified)} record(s) re-classified on import (informational)")
+
     # Golden QA — questions answerable from the bundle content
     bundle_text = "\n".join(
         (p.read_text(encoding="utf-8") if p.is_file() else "")
@@ -169,6 +213,21 @@ def main(argv: list[str] | None = None) -> int:
         f"Generated: {datetime.now(timezone.utc).isoformat()}",
         f"Source: Qdrant collection '{args.collection}' ({source_count(provider, export)} records)",
         f"Mapped: {len(rows)} memories -> {len(okf_rows)} re-imported from OKF bundle",
+        "",
+        "## Record-level round-trip parity",
+        "",
+        "Keys records by `source_ref` (record identity) and checks content continuity.",
+        "Type re-classification on import is expected (OKF types are free-form) and reported, not failed.",
+        "",
+        "| Check | Result |",
+        "| --- | --- |",
+        f"| Source records | {len(rows)} |",
+        f"| Re-imported records | {len(okf_rows)} |",
+        f"| Missing (source_ref in source, absent in bundle) | {sum(missing.values())} |",
+        f"| Extra (source_ref only in bundle) | {sum(extra.values())} |",
+        f"| Rows whose content body was lost | {lost} |",
+        f"| Re-classified on import | {len(reclassified)} |",
+        f"| **Record parity** | **{'PASS' if record_parity else 'FAIL'}** |",
         "",
         "## Golden QA (recall parity)",
         "",

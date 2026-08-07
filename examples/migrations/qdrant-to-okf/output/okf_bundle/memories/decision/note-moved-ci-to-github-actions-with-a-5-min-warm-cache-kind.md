@@ -5,7 +5,7 @@ description: 'note: Moved CI to GitHub Actions with a 5-min warm cache.'
 tags:
 - work
 - ci
-timestamp: '2026-07-30 04:25:03.786000+00:00'
+timestamp: '2026-07-30 05:54:21.013000+00:00'
 resource: '51'
 x_memanto:
   id: '51'
@@ -17,7 +17,7 @@ x_memanto:
 
 note: Moved CI to GitHub Actions with a 5-min warm cache.
 kind: decision
-created_at: 1785385503786
+created_at: 1785390861013
 
 ---
 [Supporting data]
@@ -25,5 +25,5 @@ created_at: 1785385503786
 - Collection: memories
 - Qdrant point id: 51
 - Has vector: False
-- Qdrant metadata: note=Moved CI to GitHub Actions with a 5-min warm cache.; kind=decision; created_at=1785385503786; tags=['work', 'ci']
-- Source created_at: 2026-07-30T04:25:03.786000+00:00
+- Qdrant metadata: note=Moved CI to GitHub Actions with a 5-min warm cache.; kind=decision; created_at=1785390861013; tags=['work', 'ci']
+- Source created_at: 2026-07-30T05:54:21.013000+00:00

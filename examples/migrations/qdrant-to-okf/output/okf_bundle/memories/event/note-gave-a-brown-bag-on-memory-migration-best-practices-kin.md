@@ -4,7 +4,7 @@ title: 'note: Gave a brown-bag on memory migration best practices. kind: event c
 description: 'note: Gave a brown-bag on memory migration best practices.'
 tags:
 - work
-timestamp: '2026-08-02 04:25:03.786000+00:00'
+timestamp: '2026-08-02 05:54:21.013000+00:00'
 resource: '45'
 x_memanto:
   id: '45'
@@ -16,7 +16,7 @@ x_memanto:
 
 note: Gave a brown-bag on memory migration best practices.
 kind: event
-created_at: 1785644703786
+created_at: 1785650061013
 
 ---
 [Supporting data]
@@ -24,5 +24,5 @@ created_at: 1785644703786
 - Collection: memories
 - Qdrant point id: 45
 - Has vector: False
-- Qdrant metadata: note=Gave a brown-bag on memory migration best practices.; kind=event; created_at=1785644703786; tags=['work']
-- Source created_at: 2026-08-02T04:25:03.786000+00:00
+- Qdrant metadata: note=Gave a brown-bag on memory migration best practices.; kind=event; created_at=1785650061013; tags=['work']
+- Source created_at: 2026-08-02T05:54:21.013000+00:00

@@ -4,7 +4,7 @@ title: Reports to the CTO, Marta.
 description: Reports to the CTO, Marta.
 tags:
 - work
-timestamp: '2026-07-21 04:25:03.784000+00:00'
+timestamp: '2026-07-21 05:54:21.011000+00:00'
 resource: '31'
 x_memanto:
   id: '31'
@@ -22,5 +22,5 @@ Reports to the CTO, Marta.
 - Collection: memories
 - Qdrant point id: 31
 - Has vector: False
-- Qdrant metadata: metadata={'created_at': 1784607903784, 'memory_type': 'relationship', 'user_id': 'tim@moorcheh.ai', 'agent_id': 'assistant-v1', 'run_id': 'run-1145'}; score=0.708; hash=59101fee89ea253f; categories...
-- Source created_at: 2026-07-21T04:25:03.784000+00:00
+- Qdrant metadata: metadata={'created_at': 1784613261011, 'memory_type': 'relationship', 'user_id': 'tim@moorcheh.ai', 'agent_id': 'assistant-v1', 'run_id': 'run-7459'}; score=0.927; hash=59101fee89ea253f; categories...
+- Source created_at: 2026-07-21T05:54:21.011000+00:00

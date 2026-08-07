@@ -5,7 +5,7 @@ description: Record the demo video for the migration showcase.
 tags:
 - work
 - oss
-timestamp: '2026-08-06 04:25:03+00:00'
+timestamp: '2026-08-06 05:54:21+00:00'
 resource: '56'
 x_memanto:
   id: '56'
@@ -23,5 +23,5 @@ Record the demo video for the migration showcase.
 - Collection: memories
 - Qdrant point id: 56
 - Has vector: False
-- Qdrant metadata: metadata={'source': 'agent-memory.log', 'created_at': 1785990303, 'type': 'commitment', 'tags': ['work', 'oss']}; source=agent-memory.log; created_at=1785990303; type=commitment; tags=['work', 'oss']
-- Source created_at: 2026-08-06T04:25:03+00:00
+- Qdrant metadata: metadata={'source': 'agent-memory.log', 'created_at': 1785995661, 'type': 'commitment', 'tags': ['work', 'oss']}; source=agent-memory.log; created_at=1785995661; type=commitment; tags=['work', 'oss']
+- Source created_at: 2026-08-06T05:54:21+00:00

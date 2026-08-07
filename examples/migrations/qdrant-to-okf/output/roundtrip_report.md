@@ -1,8 +1,23 @@
 # Round-trip validation report
 
-Generated: 2026-08-07T04:25:06.040092+00:00
+Generated: 2026-08-07T05:54:23.445239+00:00
 Source: Qdrant collection 'memories' (61 records)
 Mapped: 61 memories -> 61 re-imported from OKF bundle
+
+## Record-level round-trip parity
+
+Keys records by `source_ref` (record identity) and checks content continuity.
+Type re-classification on import is expected (OKF types are free-form) and reported, not failed.
+
+| Check | Result |
+| --- | --- |
+| Source records | 61 |
+| Re-imported records | 61 |
+| Missing (source_ref in source, absent in bundle) | 0 |
+| Extra (source_ref only in bundle) | 0 |
+| Rows whose content body was lost | 0 |
+| Re-classified on import | 0 |
+| **Record parity** | **PASS** |
 
 ## Golden QA (recall parity)
 

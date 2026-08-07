@@ -1,11 +1,11 @@
 ---
 type: fact
-title: 'note: Attends the Lisbon AI meetup monthly. kind: fact created_at: 1784780703783'
+title: 'note: Attends the Lisbon AI meetup monthly. kind: fact created_at: 1784786061009'
 description: 'note: Attends the Lisbon AI meetup monthly.'
 tags:
 - personal
 - events
-timestamp: '2026-07-23 04:25:03.783000+00:00'
+timestamp: '2026-07-23 05:54:21.009000+00:00'
 resource: '24'
 x_memanto:
   id: '24'
@@ -17,7 +17,7 @@ x_memanto:
 
 note: Attends the Lisbon AI meetup monthly.
 kind: fact
-created_at: 1784780703783
+created_at: 1784786061009
 
 ---
 [Supporting data]
@@ -25,5 +25,5 @@ created_at: 1784780703783
 - Collection: memories
 - Qdrant point id: 24
 - Has vector: False
-- Qdrant metadata: note=Attends the Lisbon AI meetup monthly.; kind=fact; created_at=1784780703783; tags=['personal', 'events']
-- Source created_at: 2026-07-23T04:25:03.783000+00:00
+- Qdrant metadata: note=Attends the Lisbon AI meetup monthly.; kind=fact; created_at=1784786061009; tags=['personal', 'events']
+- Source created_at: 2026-07-23T05:54:21.009000+00:00

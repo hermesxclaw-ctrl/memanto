@@ -6,7 +6,7 @@ description: 'note: Pixel the cat is 4 years old and answers to ''Pixel'' only w
   food is involved.'
 tags:
 - personal
-timestamp: '2026-07-31 04:25:03.784000+00:00'
+timestamp: '2026-07-31 05:54:21.011000+00:00'
 resource: '33'
 x_memanto:
   id: '33'
@@ -18,7 +18,7 @@ x_memanto:
 
 note: Pixel the cat is 4 years old and answers to 'Pixel' only when food is involved.
 kind: relationship
-created_at: 1785471903784
+created_at: 1785477261011
 
 ---
 [Supporting data]
@@ -26,5 +26,5 @@ created_at: 1785471903784
 - Collection: memories
 - Qdrant point id: 33
 - Has vector: False
-- Qdrant metadata: note=Pixel the cat is 4 years old and answers to 'Pixel' only when food is involved.; kind=relationship; created_at=1785471903784; tags=['personal']
-- Source created_at: 2026-07-31T04:25:03.784000+00:00
+- Qdrant metadata: note=Pixel the cat is 4 years old and answers to 'Pixel' only when food is involved.; kind=relationship; created_at=1785477261011; tags=['personal']
+- Source created_at: 2026-07-31T05:54:21.011000+00:00

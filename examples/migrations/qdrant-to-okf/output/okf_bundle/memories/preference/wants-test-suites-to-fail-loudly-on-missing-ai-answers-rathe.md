@@ -6,7 +6,7 @@ description: Wants test suites to fail loudly on missing AI answers rather than 
   silently.
 tags:
 - testing
-timestamp: '2026-07-17 04:25:03+00:00'
+timestamp: '2026-07-17 05:54:21+00:00'
 resource: '5'
 x_memanto:
   id: '5'
@@ -24,5 +24,5 @@ Wants test suites to fail loudly on missing AI answers rather than degrade silen
 - Collection: memories
 - Qdrant point id: 5
 - Has vector: False
-- Qdrant metadata: metadata={'source': 'agent-memory.log', 'created_at': 1784262303, 'type': 'preference', 'tags': ['testing']}; source=agent-memory.log; created_at=1784262303; type=preference; tags=['testing']
-- Source created_at: 2026-07-17T04:25:03+00:00
+- Qdrant metadata: metadata={'source': 'agent-memory.log', 'created_at': 1784267661, 'type': 'preference', 'tags': ['testing']}; source=agent-memory.log; created_at=1784267661; type=preference; tags=['testing']
+- Source created_at: 2026-07-17T05:54:21+00:00

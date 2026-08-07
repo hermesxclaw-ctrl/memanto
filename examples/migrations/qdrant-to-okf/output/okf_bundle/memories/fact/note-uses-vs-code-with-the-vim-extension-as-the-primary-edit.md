@@ -5,7 +5,7 @@ title: 'note: Uses VS Code with the Vim extension as the primary editor. kind: f
 description: 'note: Uses VS Code with the Vim extension as the primary editor.'
 tags:
 - tools
-timestamp: '2026-07-10 04:25:03.783000+00:00'
+timestamp: '2026-07-10 05:54:21.008000+00:00'
 resource: '18'
 x_memanto:
   id: '18'
@@ -17,7 +17,7 @@ x_memanto:
 
 note: Uses VS Code with the Vim extension as the primary editor.
 kind: fact
-created_at: 1783657503783
+created_at: 1783662861008
 
 ---
 [Supporting data]
@@ -25,5 +25,5 @@ created_at: 1783657503783
 - Collection: memories
 - Qdrant point id: 18
 - Has vector: False
-- Qdrant metadata: note=Uses VS Code with the Vim extension as the primary editor.; kind=fact; created_at=1783657503783; tags=['tools']
-- Source created_at: 2026-07-10T04:25:03.783000+00:00
+- Qdrant metadata: note=Uses VS Code with the Vim extension as the primary editor.; kind=fact; created_at=1783662861008; tags=['tools']
+- Source created_at: 2026-07-10T05:54:21.008000+00:00

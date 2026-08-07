@@ -5,7 +5,7 @@ title: 'note: The canary caught a regression in export timestamps last night. ki
 description: 'note: The canary caught a regression in export timestamps last night.'
 tags:
 - work
-timestamp: '2026-08-05 04:25:03.787000+00:00'
+timestamp: '2026-08-05 05:54:21.018000+00:00'
 resource: '60'
 x_memanto:
   id: '60'
@@ -17,7 +17,7 @@ x_memanto:
 
 note: The canary caught a regression in export timestamps last night.
 kind: observation
-created_at: 1785903903787
+created_at: 1785909261018
 
 ---
 [Supporting data]
@@ -25,5 +25,5 @@ created_at: 1785903903787
 - Collection: memories
 - Qdrant point id: 60
 - Has vector: False
-- Qdrant metadata: note=The canary caught a regression in export timestamps last night.; kind=observation; created_at=1785903903787; tags=['work']
-- Source created_at: 2026-08-05T04:25:03.787000+00:00
+- Qdrant metadata: note=The canary caught a regression in export timestamps last night.; kind=observation; created_at=1785909261018; tags=['work']
+- Source created_at: 2026-08-05T05:54:21.018000+00:00

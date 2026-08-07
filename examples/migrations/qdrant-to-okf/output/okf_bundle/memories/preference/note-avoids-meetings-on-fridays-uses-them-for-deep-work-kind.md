@@ -5,7 +5,7 @@ title: 'note: Avoids meetings on Fridays; uses them for deep work. kind: prefere
 description: 'note: Avoids meetings on Fridays; uses them for deep work.'
 tags:
 - schedule
-timestamp: '2026-07-29 04:25:03.781000+00:00'
+timestamp: '2026-07-29 05:54:21.006000+00:00'
 resource: '9'
 x_memanto:
   id: '9'
@@ -17,7 +17,7 @@ x_memanto:
 
 note: Avoids meetings on Fridays; uses them for deep work.
 kind: preference
-created_at: 1785299103781
+created_at: 1785304461006
 
 ---
 [Supporting data]
@@ -25,5 +25,5 @@ created_at: 1785299103781
 - Collection: memories
 - Qdrant point id: 9
 - Has vector: False
-- Qdrant metadata: note=Avoids meetings on Fridays; uses them for deep work.; kind=preference; created_at=1785299103781; tags=['schedule']
-- Source created_at: 2026-07-29T04:25:03.781000+00:00
+- Qdrant metadata: note=Avoids meetings on Fridays; uses them for deep work.; kind=preference; created_at=1785304461006; tags=['schedule']
+- Source created_at: 2026-07-29T05:54:21.006000+00:00
