@@ -30,8 +30,9 @@ The **new migration path** is a permanent addition:
 - `memanto/cli/analyze/qdrant_export.py` — scrolls a Qdrant collection into
   the provider-style export JSON consumed by `memanto migrate --file`
 - `map_qdrant` in `memanto/cli/migrate/mappers.py` — slots Qdrant payload
-  fields onto the Memanto schema; everything else rides in a `[Supporting
-  data]` footer so nothing is lost
+  fields onto the Memanto schema; unmapped fields are preserved in a
+  `[Supporting data]` footer (bounded to ~800 chars, so nothing meaningful
+  is dropped)
 - `examples/migrations/qdrant-to-okf/` — lived-in seed data, the full
   runnable loop, and round-trip validation
 
@@ -89,8 +90,9 @@ shapes (in priority order) before the mapper runs:
 | everything else (`score`, `hash`, `run_id`, scope ids, vectors flag) | `[Supporting data]` footer | preserved in body footer |
 
 Anything that doesn't map onto the schema is packed into a bounded
-`[Supporting data]` markdown footer on the memory — searchable, visible, and
-lossless on re-import (unmapped fields are preserved, nothing is dropped).
+`[Supporting data]` markdown footer on the memory — searchable and visible,
+and preserved through the OKF round trip (footer text stays in the body;
+~800-char bound keeps memories readable).
 
 ## Round-trip validation
 

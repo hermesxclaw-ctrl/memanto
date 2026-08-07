@@ -99,6 +99,9 @@ def main(argv: list[str] | None = None) -> int:
             fh.write(json.dumps(row, ensure_ascii=False, default=str) + "\n")
     print(f"Mapped rows -> {preview}")
 
+    if not rows:
+        raise SystemExit("ERROR: map_qdrant produced 0 rows — nothing to migrate. Check the export payload shape.")
+
     sample = rows[0]
     print("\nSample mapped row:")
     print(json.dumps({k: v for k, v in sample.items() if k != "content"}, indent=2, ensure_ascii=False, default=str))
