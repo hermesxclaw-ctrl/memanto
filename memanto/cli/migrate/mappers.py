@@ -95,7 +95,12 @@ def _parse_dt(value: Any) -> datetime | None:
         return value if value.tzinfo else value.replace(tzinfo=timezone.utc)
     if isinstance(value, (int, float)):
         try:
-            return datetime.fromtimestamp(float(value), tz=timezone.utc)
+            v = float(value)
+            # Qdrant/Mem0 store created_at as ms-since-epoch; seconds are also
+            # common (LangChain, OKF). Mirror qdrant_export._as_utc_iso.
+            if v > 1e12:
+                v = v / 1000
+            return datetime.fromtimestamp(v, tz=timezone.utc)
         except (OverflowError, OSError, ValueError):
             return None
     if isinstance(value, str):
