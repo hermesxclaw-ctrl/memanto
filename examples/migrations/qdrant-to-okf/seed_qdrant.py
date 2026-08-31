@@ -29,7 +29,6 @@ import json
 import math
 import random
 import sys
-import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -212,8 +211,9 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.out:
         # Reuse the exporter with the shared in-memory client handle.
-        from memanto.cli.analyze.qdrant_export import dump_collection
         from datetime import timezone as _tz
+
+        from memanto.cli.analyze.qdrant_export import dump_collection
 
         memories = dump_collection(client, args.collection)
         export = {
