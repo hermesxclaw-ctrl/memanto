@@ -61,8 +61,8 @@ def main(argv: list[str] | None = None) -> int:
     else:
         step("Seeding lived-in Qdrant collection (embedded)")
         sys.path.insert(0, str(Path(__file__).resolve().parent))
-        from seed_qdrant import seed
         from qdrant_client import QdrantClient
+        from seed_qdrant import seed
 
         client = QdrantClient(":memory:") if args.url is None else QdrantClient(url=args.url)
         n = seed(client, args.collection)
@@ -139,8 +139,8 @@ def main(argv: list[str] | None = None) -> int:
 
     # 4. Round-trip validation ----------------------------------------------
     step("Round-trip validation (golden QA from the OKF bundle)")
-    from memanto.cli.migrate.okf_loader import load_okf_bundle
     from memanto.cli.migrate.mappers import map_okf
+    from memanto.cli.migrate.okf_loader import load_okf_bundle
 
     bundle_dir = OUT / "okf_bundle"
     loaded = load_okf_bundle(bundle_dir)
