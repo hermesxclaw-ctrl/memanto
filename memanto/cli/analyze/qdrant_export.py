@@ -175,7 +175,6 @@ def main(argv: list[str] | None = None) -> int:
     )
     if args.in_memory:
         # The seed script stores its client handle here so the dump shares it.
-        from qdrant_client import QdrantClient as _QC
         from qdrant_client.local.qdrant_local import QdrantLocal
 
         _SHARED = getattr(sys.modules.get("__main__"), "_QD_SHARED", None)
